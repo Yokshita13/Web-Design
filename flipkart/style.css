@@ -1,0 +1,150 @@
+:root {
+    --main-bg-color: #9ac5e6
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--main-bg-color);
+    font-family: serif;
+    /* border: 2px solid blue; */
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 8vw;
+    padding: 0 10px;
+}
+
+nav ul {
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 23px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    font-weight: bolder;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search button {
+    font-family: serif;
+    font-weight: 900;
+}
+
+.search input {
+    width: 30vw;
+    height: 32px;
+    border-radius: 2px;
+    margin: 0 16px 0 56px;
+    padding: 0 12px;
+}
+
+.login{
+    display: flex;
+    margin: auto;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: serif;
+}
+.login:hover{
+    font-weight: bolder;
+}
+.orders{
+    display: flex;
+    margin: auto;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: serif;
+}
+.orders:hover{
+    font-weight: bolder;
+}
+.wishlist{
+    display: flex;
+    margin: auto;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: serif;
+}
+.wishlist:hover{
+    font-weight: bolder;
+}
+.cart{
+    display: flex;
+    margin: auto;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: serif;
+
+}
+.cart:hover{
+    font-weight: bolder;
+}
+
+.card {
+    background: rgb(231, 230, 230);
+    max-width: 70vw;
+    /* margin: auto; */
+    margin: 37px auto;
+}
+
+.cards {
+    display: flex;
+    overflow: scroll;
+    /* overflow: hidden; */
+}
+
+.card-item {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 25px;
+}
+
+.card h2 {
+    font-family: serif;
+}
+
+.container {
+    min-height: calc(100vh - 58px - 12vh);
+}
+
+.slider {
+    margin: 12px auto;
+    width: 45vw;
+    overflow: hidden;
+}
+
+footer {
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: serif;
+}
