@@ -1,0 +1,282 @@
+:root {
+    --main-bg-color: #EAE4DD
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--main-bg-color);
+}
+
+nav {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: var(--main-bg-color);
+}
+
+.logo {
+    /* height: 50px; */
+    background-size: cover;
+    /* #c9b9dd  another combination for purple logo*/
+}
+
+.search {
+    display: flex;
+    background-color: #E0E0E0;
+    justify-content: center;
+    width: 1200px;
+    height: 40px;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: black;
+}
+
+nav ul {
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 23px;
+}
+
+nav ul li a {
+    color: #333333;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    font-weight: bolder;
+    color: #007B7F;
+    /* color:  #EADBD7; */
+}
+
+.panel {
+    height: 40px;
+    background-color: #E0E0E0;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.information {
+    width: 50%;
+
+}
+
+.information p {
+    margin-left: 15px;
+    display: inline;
+}
+
+.information:hover {
+    font-weight: bolder;
+}
+
+.info {
+    margin: auto;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.panel ul {
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.panel ul li {
+    list-style: none;
+    padding: 0 23px;
+}
+
+.panel ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.panel ul li a:hover {
+    font-weight: bolder;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #EAE4DD;
+
+}
+
+.box {
+    height: 400px;
+    width: 23%;
+    background: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.box-img {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.content p {
+    color: #007B7F;
+}
+
+.content p:hover {
+    font-weight: bold;
+}
+
+.content h2 {
+    color: #000047;
+}
+
+.container2 {
+    /* min-height: calc(100vh - 58px - 12vh); */
+    background-color: #EAE4DD;
+}
+
+.content2 {
+    background: white;
+    max-width: 60vw;
+    max-height: fit-content;
+    margin: 20px auto;
+    /* margin: 37px auto; */
+}
+
+.cards {
+    display: flex;
+    overflow: scroll;
+}
+
+.card-item {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 25px;
+}
+
+.card-item img {
+    justify-content: space-evenly;
+}
+
+.content2 h2 {
+    color: #000047;
+    height: 35px;
+}
+
+.card-item img {
+    margin: auto;
+}
+
+.card-item {
+    height: 30vh;
+    margin: auto auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* .video-container {
+    background-color: #EAE4DD;
+    padding: 10px;
+    border-radius: 8px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  
+}
+
+video {
+    width: 20%;
+    height: auto;
+    border-radius: 8px;
+} */
+
+.container3 {
+    background-color: #EAE4DD;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.boxx {
+    height: 400px;
+    width: 23%;
+    background: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.boxx-img {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.content3 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.content3 h2 {
+    color: #000047;
+}
+
+.content3 p {
+    color: #007B7F;
+}
+footer{
+    margin: 15px;
+}
+.foot-panel{
+    background-color: #EAE4DD;
+    color: #000047;
+    display: flex;
+    justify-content: space-evenly;
+    height: 250px;
+}
+ul{
+    margin-top: 20px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: black;
+}
+.foot-panel2{
+    height: 50px;
+    background-color: #EAE4DD;
+    display: flex;
+    justify-content: space-evenly;
+}
+/* .contact i{
+    height: 100px;
+} */
