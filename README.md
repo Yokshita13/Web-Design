@@ -8,7 +8,7 @@ This repository contains a showcase of web design projects, demonstrating variou
 
 ## How to View
 Clone the Repository:
-git clone https://github.com/Yokshita13/web-design.git
+ https://github.com/Yokshita13/web-design.git
 
 ## Contributions
 Contributions are welcome! Open issues or submit pull requests to add new designs or improve existing ones.
