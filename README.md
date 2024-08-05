@@ -2,9 +2,9 @@
 This repository contains a showcase of web design projects, demonstrating various HTML, CSS, and JavaScript techniques for creating visually appealing and functional websites.
 
 ## Highlights
-Modern Layouts: Clean and contemporary design examples.
-Interactive Features: Engaging and user-friendly components.
-CSS Mastery: Advanced styling techniques for polished visuals.
+1. Modern Layouts: Clean and contemporary design examples.
+2. Interactive Features: Engaging and user-friendly components.
+3. CSS Mastery: Advanced styling techniques for polished visuals.
 
 ## How to View
 Clone the Repository:
